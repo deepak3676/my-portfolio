@@ -1,0 +1,45 @@
+[
+    {
+      "title": {
+        "en": "ZEISS Prospara",
+        "es": "ZEISS Prospara"
+      },
+      "description": {
+        "en": "Developed a React and ASP.NET Core application for ZEISS, implementing private npm packages and GraphQL to meet a tight 2-day deadline. Managed project with daily Scrum meetings and bi-weekly sprints in an Azure DevOps environment.",
+        "es": "Desarrollé una aplicación React y ASP.NET Core para ZEISS, implementando paquetes npm privados y GraphQL para cumplir con un plazo ajustado de 2 días. Manejé el proyecto con reuniones diarias de Scrum y sprints quincenales en un entorno de Azure DevOps."
+      },
+      "link": "https://devb.prospara.zeiss.com/dashboard",
+      "image": "../assets/img/Zeiss.png",
+      "technologies": ["React", "ASP.NET Core", "GraphQL", "Responsive"],
+      "tools": ["Azure DevOps"]
+    },
+    {
+      "title": {
+        "en": "Totalscope",
+        "es": "Totalscope"
+      },
+      "description": {
+        "en": "Led Angular frontend development with 35 hours of billed work, highlighting expertise in Angular, Kendo UI, jQuery, and advanced GitHub skills. Efficiently managed project tickets using ClickUp and applied API integration proficiency with Postman.",
+        "es": "Dirigí el desarrollo del frontend Angular con 35 horas de trabajo facturadas, destacando mi experiencia en Angular, Kendo UI, jQuery y habilidades avanzadas en GitHub. Gestioné eficientemente los tickets del proyecto usando ClickUp y apliqué mi habilidad en integración de API con Postman."
+      },
+      "link": "https://www.stage.tscopedev.com",
+      "image": "../assets/img/totalscope.png",
+      "technologies": ["Angular", "Kendo UI", "jQuery", "GitHub"],
+      "tools": ["ClickUp", "Postman"]
+    },
+    {
+      "title": {
+        "en": "Next Project Title",
+        "es": "Next Project Title (Spanish Title)"
+      },
+      "description": {
+        "en": "Description of the next project goes here. You can provide details about technologies used, project management tools, and any other relevant information.",
+        "es": "Descripción del siguiente proyecto aquí. Puedes proporcionar detalles sobre las tecnologías utilizadas, herramientas de gestión de proyectos y cualquier otra información relevante."
+      },
+      "link": "https://example.com",
+      "image": "../assets/img/next_project_image.png",
+      "technologies": ["Technology 1", "Technology 2"],
+      "tools": ["Tool 1", "Tool 2"]
+    }
+  ]
+  

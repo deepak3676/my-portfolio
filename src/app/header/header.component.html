@@ -1,0 +1,81 @@
+<header class="">
+    <h1
+      class=" animated rollIn mb-10 text-6xl text-center mt-20 leading-tight font-extrabold tracking-tight text-gray-900 md:text-7xl ">
+      Hi! I'm Divyanshu Rawat <br>
+  
+    </h1>
+    <h1
+      class=" animated zoomIn mb-10 text-6xl text-center mt-10 leading-tight font-extrabold tracking-tight text-gray-900 md:text-7xl ">
+      Full Stack developer <br>
+  
+    </h1>
+    <div class="animated zoomIn space-x-3 m-5 mt-9 flex justify-center items-center">
+  
+      <button class="btn-hover px-3 py-2">
+        <a href="https://github.com/deepak3676" target="_blank">Github</a>
+      </button>
+  
+      <button class="btn-hover px-3 py-2">
+        <a href="https://www.linkedin.com/in/divyanshu-rawat-650541190/" target="_blank">Linkedin</a>
+      </button>
+  
+      <button class="btn-hover px-3 py-2">
+        <a href="https://drive.google.com/file/d/12uAiqKaKs5cBs1UoagCVA4qK_xOLXjRZ/view" target="_blank">Resume</a>
+      </button>
+    </div>
+</header>
+
+<style>
+  .btn-hover {
+    position: relative;
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    transition: color 0.4s;
+  }
+
+  .btn-hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: #e2e8f0;
+    transition: all 0.4s;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  .btn-hover:hover::before {
+    top: -35%;
+    background-color: #e2e8f0;
+  }
+
+  .btn-hover::after {
+    content: '';
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #cbd5e0;
+    transition: all 0.4s;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  .btn-hover:hover::after {
+    top: -45%;
+    background-color: #cbd5e0;
+  }
+
+  .btn-hover a {
+    position: relative;
+    z-index: 1;
+  }
+</style>

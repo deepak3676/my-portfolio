@@ -1,0 +1,55 @@
+<div class="grid fade-in sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-7xl bg-white shadow-lg rounded-lg text-[#333] font-[sans-serif]">
+  <div>
+    <h1 class="text-3xl font-extrabold">Let's Connect</h1>
+    <p class="text-sm text-gray-400 mt-3">Impressed by my work and looking for someone to join your team? Reach out! I'd
+      love to discuss how I can contribute to your projects.</p>
+    <div class="mt-12">
+      <h2 class="text-lg font-extrabold">Email</h2>
+      <ul class="mt-3">
+        <li class="flex items-center">
+          <div class="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+            <a href="mailto:d.rawat2002@gmail.com?" class="flex items-center">
+              <span uk-icon="icon: mail; ratio: 2"></span>
+            </a>
+          </div>
+          <a href="mailto:d.rawat2002@gmail.com?" class="text-gray-900 text-sm ml-3" id="contactLink">
+            <small class="block">d.rawat2002&#64;gmail.com</small>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mt-12">
+      <h2 class="text-lg font-extrabold">Socials</h2>
+      <ul class="flex mt-3 space-x-4">
+        <li>
+          <a href="https://www.linkedin.com/in/divyanshu-rawat-650541190/" class="flex items-center">
+            <span uk-icon="icon: linkedin; ratio: 2"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/deepak3676" class="flex items-center">
+            <span uk-icon="icon: github; ratio: 2"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="relative mx-auto max-w-7xl">
+    <form id="form" class="ml-auto space-y-4 max-w-xl mx-auto" (submit)="sendEmail($event)">
+      <div class="field">
+        <input type="text" placeholder="Your Name" name="your_name" id="your_name"
+          class="w-full lg:w-1/2 rounded-md py-2.5 px-4 border text-sm outline-[#007bff]">
+      </div>
+      <div class="field">
+        <input type="email" placeholder="Your Email" name="reply_to" id="reply_to"
+          class="w-full lg:w-1/2 rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" required>
+      </div>
+      <div class="field">
+        <textarea placeholder="Your Message" rows="6" name="message" id="message"
+          class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]" required></textarea>
+      </div>
+      <button type="submit" id="button"
+        class="text-white bg-slate-900 hover:bg-slate-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+    </form>
+  </div>
+</div>
